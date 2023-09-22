@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 62.5%;
+ }
+ 
+ * {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+ }
+ 
+ h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+ }
+ 
+ h1 {
+    font-size: 8rem;
+    color: #333;
+    margin-bottom: 5rem;
+ }
+ 
+ h1 > span {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+ }
+ 
+ h2 {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+ }
+ 
+ h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+ }
+ 
+ .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+ }
+ 
+ .container > * {
+    width: 100%;
+ }
+ 
+ .Center {
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .Column {
+    flex-direction: column;
+    display: flex;
+ }
+ 
+ .justify-Center {
+    justify-content: center;
+ }
+ 
+ .text-Center {
+    text-align: center;
+ }
+ 
+ .hidden {
+    display: none;
+ }
+ 
+ /* BUTTONS */
+ .btn {
+    font-size: 3rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #333;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+ }
+ 
+ .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 180, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+ }
+ 
+ .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+ }
+ 
+ /* Additional styles for your background video, if needed */
+ #video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the entire container */
+ }
+ 
