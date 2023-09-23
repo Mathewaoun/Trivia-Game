@@ -139,13 +139,12 @@ h3 {
         width: 16rem;
         margin-bottom: 1.5rem;
     }
-    .background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      z-index: 0; /* Set a lower z-index */
-      background-color: rgb(132, 208, 255);
-}
+   /* Hide the video background on mobile */
+   #video-background {
+      display: none;
+   }
+   /* Set the background color for mobile */
+   .background {
+      background-color: rgb(132, 208, 255); /* Set your mobile background color here */
+   }
 }
