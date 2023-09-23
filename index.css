@@ -1,4 +1,4 @@
-/* Common styles for both desktop and mobile */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -105,16 +105,16 @@ h3 {
     z-index: -3;
 }
 
-/* Additional styles for your background video, if needed */
+
 #video-background {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures video covers the entire container */
+    object-fit: cover; 
 }
 
-/* Mobile styles */
+
 @media (max-width: 768px) {
-    /* Adjust font sizes, margins, and padding for smaller screens */
+
     h1 {
         font-size: 6rem;
         margin-bottom: 3rem;
@@ -139,12 +139,12 @@ h3 {
         width: 16rem;
         margin-bottom: 1.5rem;
     }
-   /* Hide the video background on mobile */
+
    #video-background {
       display: none;
    }
-   /* Set the background color for mobile */
+
    .background {
-      background-color: rgb(132, 208, 255); /* Set your mobile background color here */
+      background-color: rgb(132, 208, 255);
    }
 }
